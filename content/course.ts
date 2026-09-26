@@ -110,3 +110,12 @@ export const finalTalks = [
   { audience: "Technical audience", question: "How does this work, and where could it fail?", needs: "Architecture, data flow, choices, and limitations", show: "Workflow + execution" },
   { audience: "Founder / expert", question: "What did I discover by actually building this?", needs: "Experience, observation, evidence, and a thoughtful question", show: "Only what supports the insight" },
 ];
+
+
+export const ecosystemDoors = [
+  { key: "learn", label: "Learn", title: "Structured n8n learning", domain: "n8n.detleng.com", href: "https://n8n.detleng.com", description: "Lessons and hands-on practice for building workflow fluency." },
+  { key: "build", label: "Build / Explain", title: "Experiments and field notes", domain: "n8nlab.detleng.com", href: "https://n8nlab.detleng.com", description: "Postmortems, experiments, field guides, and the thinking behind the build." },
+  { key: "show", label: "Show", title: "Automation systems", domain: "ops.detleng.com", href: "https://ops.detleng.com", description: "Polished projects, architecture, reliability thinking, and engineering evidence." },
+  { key: "speak", label: "Speak", title: "Explain what you build", domain: "speakingn8n.detleng.com", href: "https://speakingn8n.detleng.com", description: "Public speaking practice built around one real n8n workflow and different rooms." },
+  { key: "start", label: "Start", title: "Bring a process to automate", domain: "automation.detleng.com", href: "https://automation.detleng.com", description: "The client-facing door for turning repetitive work into practical automation." },
+] as const;
